@@ -1,0 +1,16 @@
+{
+  "name": "twoleds/database-pdo",
+  "type": "library",
+  "description": "Implementation of simple interface for accessing databases via pdo extension.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Twoleds\\Database\\PDO\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-pdo": "*",
+    "twoleds/database": "^1.0"
+  }
+}
